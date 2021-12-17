@@ -1,0 +1,11 @@
+#include<iostream>
+void func(int& a)
+{
+	a = 33;
+}
+int main()
+{
+	int x = 15;
+	func(x);
+	std::cout << x;
+}
